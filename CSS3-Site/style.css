@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+	background-color: #333;
+	color: #fa09b9;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fa09b9;
+	text-decoration: none;
+}
+
+.destaque {
+	color: #fa09b9;
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+.destaque img {
+	max-width: 100%;
+}
+
+.produtos {
+	padding: 50px;
+	text-align: center;
+}
+
+.produtos ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.produtos li {
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.produtos h3 {
+	font-size: 24px;
+	margin-bottom: 10
+}
