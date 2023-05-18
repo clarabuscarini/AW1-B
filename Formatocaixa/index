@@ -1,1 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Melhores joias do brasil</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="divheader">
+            <div class="divimg">
+                <img
+                    src="bb2.jpg"
+                    alt="logo"
+                    width="250"
+                    height="200"> 
 
+            </div>
+            <div class="divtitulo">
+                <h1 class="titulo"> melhores joias do brasil</h1>
+                <h3 class="subtitulo">Informações sobre as marcas</h3>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input/>
+                <button type="submit" class="botaopesquisa">Pesquisar</button>
+            </div>
+        </div>
+        <hr class="hr"/>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="https://pandorajoias.com.br"> site pandora</a>
+            </li>
+            <li>
+                <a href="https://www.vivara.com.br"> site vivara </a>
+            </li>
+            <li>
+                <a href="https://www.tiffany.comj.br"> site tiffany </a>
+            </li>
+        </ul>
+        <hr/>
+    </nav>
+    <main >
+        <div class="borda" >
+            <div class="noticia">
+                <h2 class="textonoticia"> site pandora</h2>
+                <h3> Conheça os produtos</h3>
+                <img
+                    src="logo-og.jpg"     
+                    width="600"
+                    height="400"  
+                    class="publico"                   
+                >
+
+                <h2 class="textonoticia">TOP 5 joias</h2>
+                <h5> Última atualização: 17/05/2023 </h5>
+            </div>
+            
+            <table >
+                <tbody>
+                    <tr>
+                        <td> Pandora </td>
+                        <td>Criada em 1982</td>
+                        <td> é a segunda maior fabricante de joias do mundo. É conhecida principalmente por seus braceletes, anéis e brincos customizáveis</td>
+                        <td> Todas são feitas de ouro 14k ou 18k e prata, frequentemente combinados com pedras preciosas, como topázio, safiras, ametistas e diamantes.</td>
+                    </tr>
+                    <tr>
+                        <td> Monte carlo </td>
+                        <td> Criada em 1981 no rio de Janeiro</td>
+                        <td> Monte Carlo se expandiu e hoje está presente em várias cidades brasileiras</td>
+                        <td> A sofisticação de Monte Carlo, estância do Principado do Mónaco, foi a inspiração para a criação de um projeto que em pouco tempo se tornaria uma referência para o panorama da joalharia.</td>
+                    </tr>
+                    <tr>
+                        <td> Vivara</td>
+                        <td>Criada apos a segunda guerra mundial</td>
+                        <td> desenvolvida pela família romena Kaufman</td>
+                        <td> Hoje, é a maior rede de joalheria do Brasil, com mais de 230 pontos de venda nas principais cidades</td>
+                    </tr>
+                    <tr>
+                        <td>tiffany</td>
+                        <td> criada em 1837</td>
+                        <td> fundada por por Charles Lewis Tiffany e Teddy Young</td>
+                        <td> sua distinta cor só se tornou marca registrada quando foi escolhida por Lewis para ser a capa do Blue Book, em 1845. Se tratava de uma espécie de catálogo anual com a coleção de joias feitas à mão.</td>
+                    </tr>
+                    <tr>
+                        <td> Jack Vartanian </td>
+                        <td> joias atemporais</td>
+                        <td> fundada em 1999</td>
+                        <td> design totalmente brasileiro</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="10"> <strong>Última atualização: 17/05/2023 </strong></td>
+                    </tr>
+                    <tr>
+                        <td colspan="10"> Fonte: <a href="https://www.montarumnegocio.com/marcas-famosas-de-joias-brasileiras/"> Noticia</a></td>
+                    </tr>
+                </tfoot>
+
+            </table>
+            <div class="noticia">
+                <br/>   
+                <h2 class="textonoticia"> Inscrição</h2>
+            </div>
+            <form>
+                <fieldset>
+                    <legend class="nossotime"> Se inscreva para saber mais</legend>
+                    <p><strong>*Vagas limitadas</strong></p>
+                    <fieldset>
+                        <label for="nome"> Nome: </label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                        />
+                        <br/> <br/> 
+                        <label for="email"> E-mail: </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                        />
+                        <br/> <br/> 
+                        <label for="profissao">O que você é? </label>
+                        <select id="profissao" name="profissao">
+                            <option value="vazio"></option>
+                            <option value="redator">especialista</option>
+                            <option value="design">joalheiro</option>
+                            <option value="jornalista">comprador</option>
+                        </select>
+                        <br/> <br/>
+                        <label for="genero">Gênero</label>
+                        <input
+                            type="radio"
+                            id="masculino"
+                            name="genero"
+                            value="masculino"
+                        />
+                        <label for="masculino">Masculino</label>
+
+                        <input
+                            type="radio"
+                            id="feminino"
+                            name="genero"
+                            value="feminino"
+                        />
+                        <label for="feminino">Feminino</label>
+
+                        <input
+                            type="radio"
+                            id="outros"
+                            name="genero"
+                            value="outros"
+                        />
+                        <label for="outros">Outros</label>
+
+                        <input
+                            type="radio"
+                            id="nao-informar"
+                            name="genero"
+                            value="nao-informar"
+                        />
+                        <label for="nao-informar">Prefiro não dizer</label>
+                        <br/> <br/>
+                        <label for="curriculo"> Envie seu curriculo para trabalhar com a gente</label>
+                        <br/>
+                        <input
+                            type="file"
+                            id="curriculo"
+                            name="curriculo"
+                        /> 
+                        <br/> <br/>
+                        <fieldset>
+                            <legend>Comentário</legend>
+                            <textarea id="comentario" rows="5" cols="35" placeholder="Por que você deseja fazer parte do nosso time?"></textarea>
+                        </fieldset>   
+                        <br/>
+                        <button type="submit" class="botaoenviar">Enviar</button>
+                    </fieldset>
+                </fieldset>
+                <br/>
+            </form>
+        </div>
+        <br/>
+        <hr/>
+    </main>
+    <footer>
+        <div>
+            <br/>
+            Desenvolvido no 
+            <a href="https://spo.ifsp.edu.br/" class="linkifsp">
+                Instituto Federal de São Paulo 
+            </a>
+        </div> 
+        <div>
+            por Julia Clara Buscarini
+        </div>
+        <div class="divlink">
+            <br/>
+            Acesse: 
+            <a href="https://github.com/clarabuscarini" class="linkgithub">
+                GitHub
+            </a>
+        </div>
+        <div>
+        
+            <img
+                src="github.png"
+                alt="github"
+                width="30"
+                height="30"
+            />
+        </div>
+        <p>bybuscarini</p>
+    </footer>
+</body>
+</html>
