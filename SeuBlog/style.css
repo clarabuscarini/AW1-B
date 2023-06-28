@@ -1,0 +1,26 @@
+ body{background: rgba(196, 0, 147, 0.616);}
+
+       #cabecalho a{text-decoration: none;}
+       #cabecalho a:link{color:black; padding:8px 12px;}
+       #cabecalho a:visited{color:black;padding:8px 12px;}
+       #cabecalho a:hover{color:black; background:rgba(196, 0, 147, 0.616);}
+
+        a{text-decoration: none;}  
+        a:link{color:blue;}
+        a:visited{color:pink;}
+        a:hover{color: rgba(196, 0, 147, 0.616);}
+       
+        h2{color:pink; margin:10px;}
+        h3 {color: #565656; background: #CCC; padding: 0px;}
+        #data{font-size:0,7em; display:block; padding-top: 0px; padding-bottom: 15px; margin:10px;}
+        #cabecalho{width:950px;margin:10px auto;padding:15px; background: pink;text-align: center;}
+        #cabecalho_nome, #cabecalho_menu{padding:15px;}
+        #principal{width:950px; margin:10px auto; }
+        #rodape{clear:both; width:950px;margin:10px auto;padding:15px; background: pink;text-align: center;}
+        #postagem{ width:660px; margin:10px; float:left;}
+        #lateral{ width: 240px; margin:10px; float:right;}
+       
+        .conteudo_postagem{padding: 20px; margin: 20px; background: white;}
+        .conteudo-lateral { padding: 20px; margin: 20px; background: white;}
+        .laranja{color: rgb(247, 14, 157);}
+       
