@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        fieldset{
+            padding:1em;
+            border:1px solid #ccc;
+            background: #f8f8f8;}
+            legend{
+            font-weight: bold; }
+            input{
+            width:80%;
+            height:40px;
+            font-size: 22px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding-left: 40px;
+            border:none;
+            }
+            input.radio{width:auto;}
+            #container{
+            width:400px;
+            height:300px;
+            background-color: rgba(242, 0, 255, 0.342);
+            border-radius: 10px;
+            margin:0,auto;
+            margin-top:120px;
+            -webkit-border-radius:10px;
+            -moz-border-radius:10px;
+            border-radius:10px;
+            margin:0 auto;
+            margin-top:120px;
+            text-align: center;
+            }
+            #container img{
+            width:120px;
+            height:120px;
+            margin-top: -60px;
+            margin-bottom: 30px;
+            border-radius: 50px;
+            text-align: center;
+            }
+            input.email { background-image: url(Usuário.png) widht = 20 height = 20; }
+            input.senha { background-image: url(Cadeado.png) widht = 20 height = 20; }
+            input.submit{
+            color:#000000;
+            background-color: rgb(227, 135, 250);
+            border:2px solid rgb(255, 46, 224);
+            padding:5px 20px;
+            height:45px;
+            width:120px;
+            background-repeat: no-repeat;
+            background-position: 10px;
+            }
+        </style>
+    </head>
+    <table>
+        <body>
+            <div id="container">
+            <img src="dress.png">
+            <form>
+            <div>
+            <input type="text" name="email" id="email" placeholder="Digite seu e-mail" class = "email">
+            </div>
+            <div>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" class = "senha">
+            </div>
+            <div>
+            <input type="submit" value="Login" class = "submit">
+            </div>
+            </form>
+            </div>
+            </body>
+</html>
