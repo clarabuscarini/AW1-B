@@ -1,0 +1,54 @@
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: white;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+
+    padding: 70px 0;
+
+}
+
+p,li{
+    color:#444;
+    font-size: 14px;
+}
+
+h1{
+    color: fuchsia;
+}
+
+header, .navbar{
+    background-color: black;
+}
+
+#nav-container{
+padding-top:  0; 
+padding-bottom: 0;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-expand-lg .nav-nav .nav-link{
+    padding: 1rem .8rem;
+    
+   
+}
+.nav-item {
+color: white;
+}
+
+
+
+
+  
